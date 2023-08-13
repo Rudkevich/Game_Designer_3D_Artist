@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="min/main.min.css">
+    <script defer src="min/main.min.js"></script>
+    
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+
+            <a href="#" class="header__logo">Kristin<span>Wild</span></a>
+
+            <div class="header__menu menu">
+
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+
+                <div class="menu__body">
+                    <ul class="menu__list">
+                        <li>
+                            <a  data-text="editions" data-goto=".page__section_0" href="#" class="menu__link">Home</a>
+                        </li>
+                        <li>
+                            <a data-text="about" data-goto=".page__section_1" href="#" class="menu__link">About Me</a>
+                        </li>
+                        <li>
+                            <a data-text="services" data-goto=".page__section_2" href="#" class="menu__link">Service</a>
+                        </li>
+                        <li>
+                            <a data-text="portfolio" data-goto=".page__section_3" href="#" class="menu__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a data-text="contacts" data-goto=".page__section_4" href="#" class="menu__link">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="menu__language">
+                <span class="language__en language" data-lang="en">EN</span>
+                <span class="language__ru language" data-lang="ru">RU</span>
+            </div>
+
+        </div>
+    </header>
+
+<main>
+    <section class="home page__section_0">
+        <div class="home__container">
+
+            <div class="home__left">
+                <h3 data-text="home__subtitle_one" class="home__subtitle">Welcome ! I’m</h3>
+                <h1 class="home__title">Kristin <span>Wild</span></h1>
+                <h3 data-text="home__subtitle_two" class="home__subtitle">Game Designer 3D Artist</h3>
+                <p data-text="home__text" class="home__text">Welcome to my creative world! As a passionate Game Designer and 3D Artist, I bring dreams to life through immersive experiences. With a keen eye for aesthetics and a knack for storytelling, I craft captivating worlds where players can escape reality. Join me on this exhilarating journey as we push boundaries and redefine gaming together. Let's make magic happen!</p>
+
+                <div class="social__home-block">
+
+                    <!-- Instagram-icon -->
+                    <a class="social-link" href="#">
+                        <svg  width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_46_6)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.5 0C33.3662 0 43 9.63385 43 21.5C43 33.3662 33.3662 43 21.5 43C9.63385 43 0 33.3662 0 21.5C0 9.63385 9.63385 0 21.5 0ZM21.5 8.0625C17.8506 8.0625 17.393 8.07795 15.9597 8.14338C14.5295 8.20863 13.5526 8.43581 12.6978 8.76797C11.8142 9.11138 11.0649 9.57086 10.3178 10.3179C9.57078 11.0649 9.1113 11.8143 8.76788 12.6979C8.43573 13.5526 8.20863 14.5295 8.14329 15.9597C8.07795 17.393 8.0625 17.8506 8.0625 21.5C8.0625 25.1494 8.07795 25.607 8.14329 27.0403C8.20863 28.4705 8.43573 29.4474 8.76788 30.3021C9.1113 31.1857 9.57078 31.9351 10.3178 32.6822C11.0649 33.4292 11.8142 33.8887 12.6978 34.2321C13.5526 34.5642 14.5295 34.7914 15.9597 34.8566C17.393 34.922 17.8506 34.9375 21.5 34.9375C25.1494 34.9375 25.607 34.922 27.0403 34.8566C28.4705 34.7914 29.4474 34.5642 30.3021 34.2321C31.1857 33.8887 31.9351 33.4292 32.6822 32.6822C33.4292 31.9351 33.8887 31.1857 34.2321 30.3021C34.5642 29.4474 34.7914 28.4705 34.8566 27.0403C34.922 25.607 34.9375 25.1494 34.9375 21.5C34.9375 17.8506 34.922 17.393 34.8566 15.9597C34.7914 14.5295 34.5642 13.5526 34.2321 12.6979C33.8887 11.8143 33.4292 11.0649 32.6822 10.3179C31.9351 9.57086 31.1857 9.11138 30.3021 8.76797C29.4474 8.43581 28.4705 8.20863 27.0403 8.14338C25.607 8.07795 25.1494 8.0625 21.5 8.0625ZM21.5 10.4837C25.088 10.4837 25.5129 10.4974 26.9299 10.562C28.2401 10.6218 28.9515 10.8407 29.425 11.0247C30.0523 11.2684 30.4999 11.5597 30.9701 12.0299C31.4404 12.5001 31.7316 12.9478 31.9753 13.575C32.1593 14.0485 32.3782 14.7599 32.438 16.0701C32.5026 17.4871 32.5163 17.912 32.5163 21.5C32.5163 25.088 32.5026 25.5129 32.438 26.9299C32.3782 28.2401 32.1593 28.9515 31.9753 29.425C31.7316 30.0523 31.4404 30.4999 30.9701 30.9701C30.4999 31.4404 30.0523 31.7316 29.425 31.9753C28.9515 32.1593 28.2401 32.3782 26.9299 32.438C25.5132 32.5026 25.0882 32.5163 21.5 32.5163C17.9118 32.5163 17.4869 32.5026 16.0701 32.438C14.7599 32.3782 14.0485 32.1593 13.575 31.9753C12.9477 31.7316 12.5001 31.4404 12.0298 30.9701C11.5596 30.4999 11.2684 30.0523 11.0247 29.425C10.8407 28.9515 10.6218 28.2401 10.562 26.9299C10.4973 25.5129 10.4837 25.088 10.4837 21.5C10.4837 17.912 10.4973 17.4871 10.562 16.0701C10.6218 14.7599 10.8407 14.0485 11.0247 13.575C11.2684 12.9478 11.5596 12.5001 12.0298 12.0299C12.5001 11.5597 12.9477 11.2684 13.575 11.0247C14.0485 10.8407 14.7599 10.6218 16.0701 10.562C17.4871 10.4974 17.912 10.4837 21.5 10.4837ZM21.5 14.5997C17.689 14.5997 14.5997 17.689 14.5997 21.5C14.5997 25.311 17.689 28.4003 21.5 28.4003C25.311 28.4003 28.4003 25.311 28.4003 21.5C28.4003 17.689 25.311 14.5997 21.5 14.5997ZM21.5 25.9791C19.0262 25.9791 17.0209 23.9738 17.0209 21.5C17.0209 19.0262 19.0262 17.0209 21.5 17.0209C23.9738 17.0209 25.9791 19.0262 25.9791 21.5C25.9791 23.9738 23.9738 25.9791 21.5 25.9791ZM30.2855 14.3271C30.2855 15.2176 29.5635 15.9395 28.6729 15.9395C27.7825 15.9395 27.0605 15.2176 27.0605 14.3271C27.0605 13.4365 27.7825 12.7146 28.6729 12.7146C29.5635 12.7146 30.2855 13.4365 30.2855 14.3271Z" fill="white"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_46_6">
+                            <rect width="43" height="43" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg> 
+                    </a>
+                    <!-- Facebook-icon -->
+                    <a class="social-link" href="#">
+                        <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_46_8)">
+                            <path d="M21.5 0C9.62587 0 0 9.62587 0 21.5C0 33.3741 9.62587 43 21.5 43C33.3741 43 43 33.3741 43 21.5C43 9.62587 33.3741 0 21.5 0ZM27.1765 12.8856C27.1765 12.8856 24.9766 12.7122 24.11 13.0322C22.6775 13.5613 22.6434 14.7987 22.6434 15.9787V18.3885H27.0231L26.3832 22.9983H22.6434V34.3776H17.6968V22.9983H13.584V18.3885H17.697V14.4789C17.697 10.3391 20.8836 8.83927 22.7834 8.65929C24.6832 8.47931 27.1765 9.01925 27.1765 9.01925V12.8856Z" fill="white"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_46_8">
+                            <rect width="43" height="43" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                    </a>
+                    <!-- Twitter-icon -->
+                    <a class="social-link" href="#">
+                        <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_46_10)">
+                            <path d="M21.5 0C9.62587 0 0 9.62587 0 21.5C0 33.3741 9.62587 43 21.5 43C33.3741 43 43 33.3741 43 21.5C43 9.62587 33.3741 0 21.5 0ZM30.8991 16.6832C30.9243 18.2865 30.7121 26.3032 23.1033 29.7771C15.4946 33.2509 9.74219 28.922 9.74219 28.922C13.9982 29.3228 16.7897 26.9178 16.7897 26.9178C13.3425 26.7709 12.3404 23.5642 12.3404 23.5642C13.5697 23.778 14.4203 23.435 14.4203 23.435C10.5724 22.402 10.6703 18.6607 10.6703 18.6607C11.7659 19.3109 12.7279 19.195 12.7279 19.195C9.16496 16.6297 11.3455 12.8085 11.3455 12.8085C15.3539 17.7521 21.3582 17.89 21.3582 17.89C21.273 17.4934 21.231 17.0888 21.2328 16.6832C21.2328 13.4766 24.0582 11.8732 26.0428 11.8732C28.0274 11.8732 29.4962 13.3696 29.4962 13.3696C31.006 13.3025 32.6227 12.274 32.6227 12.274C31.9813 14.2248 30.6323 14.9463 30.6323 14.9463C31.8549 14.8127 33.2582 14.198 33.2582 14.198C32.784 15.2402 30.8991 16.6832 30.8991 16.6832Z" fill="white"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_46_10">
+                            <rect width="43" height="43" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                    </a>
+                    <!-- Vk-icon -->
+                    <a class="social-link" href="#">
+                        <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_46_14)">
+                            <path d="M21.5 0C9.62587 0 0 9.62587 0 21.5C0 33.3741 9.62587 43 21.5 43C33.3741 43 43 33.3741 43 21.5C43 9.62587 33.3741 0 21.5 0ZM32.9524 28.7982H30.2241C29.9286 28.7986 29.6369 28.7323 29.3705 28.6044C29.1042 28.4764 28.8701 28.2901 28.6857 28.0592C27.8675 27.032 26.2557 25.2106 24.5633 24.4283C24.4653 24.3824 24.3573 24.362 24.2493 24.3689C24.1413 24.3758 24.0368 24.4098 23.9454 24.4678C23.854 24.5258 23.7787 24.6059 23.7265 24.7007C23.6743 24.7955 23.6468 24.9019 23.6466 25.0101V27.7084C23.6466 27.8515 23.6184 27.9932 23.5637 28.1254C23.5089 28.2577 23.4287 28.3778 23.3275 28.479C23.2263 28.5802 23.1062 28.6605 22.974 28.7153C22.8418 28.7701 22.7001 28.7982 22.5569 28.7982H21.2954C19.6549 28.7982 16.122 27.7996 13.3069 23.6988C10.9083 20.205 9.83911 17.4974 9.21561 15.302C9.17936 15.1734 9.17342 15.038 9.19827 14.9067C9.22311 14.7754 9.27806 14.6515 9.3588 14.545C9.43953 14.4385 9.54387 14.3521 9.6636 14.2926C9.78334 14.2332 9.91522 14.2023 10.0489 14.2024H12.8088C13.0841 14.2022 13.3522 14.2908 13.5731 14.4552C13.7941 14.6195 13.956 14.8508 14.035 15.1146C14.5482 16.8311 15.8775 20.5341 18.2272 22.3781C18.2989 22.4345 18.3849 22.4697 18.4756 22.4796C18.5663 22.4894 18.658 22.4735 18.7401 22.4338C18.8222 22.394 18.8914 22.3319 18.9399 22.2546C18.9884 22.1774 19.0141 22.088 19.0142 21.9968V17.6744C19.0142 16.8202 18.644 15.9656 18.0662 15.2977C17.983 15.2019 17.929 15.0842 17.9108 14.9585C17.8926 14.8329 17.9109 14.7047 17.9635 14.5892C18.0162 14.4738 18.1009 14.3758 18.2077 14.3072C18.3144 14.2385 18.4387 14.202 18.5656 14.202H22.8207C23.0399 14.202 23.25 14.289 23.4049 14.444C23.5599 14.5989 23.647 14.809 23.647 15.0282V20.8504C23.647 20.9347 23.6702 21.0173 23.7141 21.0893C23.7579 21.1613 23.8207 21.2198 23.8956 21.2584C23.9705 21.2971 24.0546 21.3144 24.1387 21.3084C24.2228 21.3024 24.3036 21.2734 24.3723 21.2246C25.1533 20.6686 25.8223 19.8473 26.4375 18.924C27.2119 17.7627 28.1568 15.843 28.6308 14.8467C28.7225 14.6537 28.8671 14.4906 29.0478 14.3765C29.2285 14.2623 29.4378 14.2017 29.6515 14.2018H32.6615C32.7872 14.2017 32.9108 14.2338 33.0207 14.2949C33.1305 14.356 33.2229 14.4441 33.2891 14.5509C33.3554 14.6578 33.3932 14.7797 33.3991 14.9053C33.405 15.0308 33.3787 15.1558 33.3227 15.2684C32.5632 16.7918 31.0838 19.5867 29.6917 21.2264C29.4924 21.4622 29.3948 21.7674 29.4204 22.0751C29.4459 22.3828 29.5925 22.6677 29.828 22.8674C30.7354 23.6428 32.1521 25.0762 33.6794 27.4638C33.7637 27.5945 33.8112 27.7455 33.8169 27.9009C33.8226 28.0562 33.7864 28.2103 33.712 28.3469C33.6376 28.4834 33.5278 28.5974 33.3941 28.6768C33.2605 28.7562 33.1079 28.7982 32.9524 28.7982Z" fill="white"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_46_14">
+                            <rect width="43" height="43" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                    </a>
+                    <!-- Gitgub-icon -->
+                    <a href="#" class="social-link">
+                        <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5725 21.9071C12.5338 21.9071 12.9967 22.8867 13.0096 22.8867C14.0201 24.6899 15.968 25.8107 19.254 26.1218C18.7853 26.4715 18.222 27.1351 18.1438 27.902C17.554 28.2768 16.3679 28.4008 15.4463 28.1148C14.1542 27.7142 13.6597 25.2009 11.7254 25.5592C11.3068 25.6359 11.39 25.9075 11.7519 26.139C12.3417 26.5138 12.8964 26.9832 13.3243 27.9815C13.6532 28.7484 14.3441 30.1179 16.5299 30.1179C17.3971 30.1179 18.0048 30.0154 18.0048 30.0154C18.0048 30.0154 18.0213 31.9726 18.0213 32.7337C18.0213 33.6117 16.8159 33.8589 16.8159 34.281C16.8159 34.448 17.215 34.4638 17.5354 34.4638C18.1689 34.4638 19.4869 33.9442 19.4869 33.0319C19.4869 32.3073 19.4991 29.8714 19.4991 29.4442C19.4991 28.5126 20.0072 28.2173 20.0072 28.2173C20.0072 28.2173 20.0702 33.191 19.8861 33.8589C19.6696 34.6429 19.279 34.5319 19.279 34.8816C19.279 35.4019 20.8657 35.0099 21.3918 33.8668C21.7981 32.9788 21.6204 28.0976 21.6204 28.0976L22.054 28.089C22.054 28.089 22.0783 30.3229 22.0633 31.3441C22.0482 32.4019 21.9759 33.7392 22.6151 34.3699C23.0351 34.7848 24.3953 35.5123 24.3953 34.8472C24.3953 34.4609 23.65 34.1434 23.65 33.0978V28.2854C24.2455 28.2854 24.156 29.8678 24.156 29.8678L24.1997 32.8083C24.1997 32.8083 24.0678 33.879 25.3786 34.3269C25.8408 34.4867 26.8298 34.5297 26.8764 34.2624C26.923 33.9951 25.6853 33.5973 25.6739 32.7689C25.6667 32.2622 25.6968 31.9669 25.6968 29.7682C25.6968 27.5694 25.3965 26.7567 24.3495 26.1089C27.5802 25.7828 29.5804 24.9973 30.5544 22.8939C30.6303 22.8961 30.9521 21.9114 30.9098 21.9114C31.1284 21.1173 31.2467 20.1777 31.2696 19.0655C31.2639 16.0483 29.7947 14.9812 29.513 14.4802C29.9287 12.1962 29.4428 11.1571 29.2178 10.8002C28.385 10.5092 26.3217 11.5491 25.1937 12.2815C23.3562 11.7533 19.4704 11.8042 18.0134 12.4177C15.3252 10.5264 13.9026 10.8159 13.9026 10.8159C13.9026 10.8159 12.9831 12.4349 13.6597 14.8042C12.7753 15.9121 12.116 16.6962 12.116 18.7738C12.116 19.9448 12.2564 20.9926 12.5725 21.9071ZM21.5 43C9.62627 43 0 33.3737 0 21.5C0 9.62555 9.62627 0 21.5 0C33.3737 0 43 9.62555 43 21.5C43 33.3737 33.3737 43 21.5 43Z" fill="white"/>
+                            </svg>
+                    </a>
+
+ 
+                </div>
+            </div>
+
+            <div class="home__right">
+
+                <div class="circle">
+                    <div class="home-img"></div>
+                    <div class="home__text-circle">
+                        <p>I'm Youtuber And I'm Frontend Developer And I'm Desingers</p>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about page__section_1">
+        <div class="container__about">
+            <h2 data-text="about" class="sub__section">About Me</h2>
+
+            <div class="about__container">
+
+                <div class="about__image">
+                   <div class="img__box">
+                       <img src="/images/about.png" alt="">
+                   </div>
+
+                   <div class="liquid-shape">
+                       <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                           <path fill="#EC1D68">
+                               <animate attributeName="d"
+                                   dur="20000ms"
+                                   repeatCount="indefinite"
+                                   values="
+                                   M430.5,289Q385,328,361,364.5Q337,401,293.5,441.5Q250,482,209.5,436Q169,390,115.5,374Q62,358,63,304Q64,250,77.5,204Q91,158,113,104Q135,50,192.5,39.5Q250,29,293.5,64.5Q337,100,388,120.5Q439,141,457.5,195.5Q476,250,430.5,289Z ;
+
+                                   M430.5,309.72259Q456.49294,369.44518,415.3968,417.34261Q374.30067,465.24003,312.15033,437.35548Q250,409.47093,210.01806,399.2174Q170.03613,388.96387,137.25872,361.56644Q104.48131,334.16902,79.06001,292.08451Q53.6387,250,49.5245,191.04838Q45.4103,132.09676,109.89161,125.75872Q174.37292,119.42068,212.18646,94.41487Q250,69.40905,302.82517,68.12645Q355.65033,66.84385,376.60257,115.83742Q397.55482,164.83098,401.03094,207.41549Q404.50706,250,430.5,309.72259Z;
+
+                                   M414,289Q386,328,370.5,380Q355,432,302.5,432.5Q250,433,202.5,424Q155,415,127.5,375.5Q100,336,64.5,293Q29,250,32,188Q35,126,97,109Q159,92,204.5,61Q250,30,296,60Q342,90,401,109.5Q460,129,451,189.5Q442,250,414,289Z;
+
+                                   M433.54635,305.46008Q442.58153,360.92017,389.01759,380Q335.45365,399.07983,292.72683,427.35622Q250,455.63261,197.8706,443.03197Q145.7412,430.43133,99.72361,397.10386Q53.70602,363.77639,27.97919,306.88819Q2.25237,250,19.65494,188.51438Q37.05751,127.02876,86.19807,89.45365Q135.33863,51.87855,192.66932,43.51116Q250,35.14378,303.20129,50.22683Q356.40257,65.30988,399.97124,101.78434Q443.53992,138.2588,434.02554,194.1294Q424.51116,250,433.54635,305.46008Z;
+
+                                   M405.5,292Q396,334,365.5,366Q335,398,292.5,401.5Q250,405,208.5,399.5Q167,394,127,369Q87,344,44.5,297Q2,250,31.5,195.5Q61,141,99.5,98.5Q138,56,194,39.5Q250,23,293,62Q336,101,362,135.5Q388,170,401.5,210Q415,250,405.5,292Z;
+
+                                   M460.5,310.5Q460,371,410.5,407Q361,443,305.5,427.5Q250,412,201.5,414.5Q153,417,108.5,387Q64,357,79.5,303.5Q95,250,79.5,196.5Q64,143,114.5,123.5Q165,104,207.5,81.5Q250,59,291,83Q332,107,379,127.5Q426,148,443.5,199Q461,250,460.5,310.5Z;
+
+                                   M432,302.5Q432,355,380.5,371.5Q329,388,289.5,442Q250,496,205,451.5Q160,407,127,373.5Q94,340,62,295Q30,250,34,189Q38,128,97,108Q156,88,203,74Q250,60,293,80.5Q336,101,377.5,127Q419,153,425.5,201.5Q432,250,432,302.5Z;
+
+                                   M430.5,289Q385,328,361,364.5Q337,401,293.5,441.5Q250,482,209.5,436Q169,390,115.5,374Q62,358,63,304Q64,250,77.5,204Q91,158,113,104Q135,50,192.5,39.5Q250,29,293.5,64.5Q337,100,388,120.5Q439,141,457.5,195.5Q476,250,430.5,289Z;
+                                   "
+                               ></animate>
+                           </path>
+                         </svg>
+                   </div>
+
+                   <div class="liquid-shape">
+                       <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                           <path fill="#EC1D68">
+                               <animate attributeName="d"
+                                   dur="20000ms"
+                                   repeatCount="indefinite"
+                                   values="
+                                   
+                                   M430.5,289Q385,328,361,364.5Q337,401,293.5,441.5Q250,482,209.5,436Q169,390,115.5,374Q62,358,63,304Q64,250,77.5,204Q91,158,113,104Q135,50,192.5,39.5Q250,29,293.5,64.5Q337,100,388,120.5Q439,141,457.5,195.5Q476,250,430.5,289Z ;
+
+                                   M430.5,309.72259Q456.49294,369.44518,415.3968,417.34261Q374.30067,465.24003,312.15033,437.35548Q250,409.47093,210.01806,399.2174Q170.03613,388.96387,137.25872,361.56644Q104.48131,334.16902,79.06001,292.08451Q53.6387,250,49.5245,191.04838Q45.4103,132.09676,109.89161,125.75872Q174.37292,119.42068,212.18646,94.41487Q250,69.40905,302.82517,68.12645Q355.65033,66.84385,376.60257,115.83742Q397.55482,164.83098,401.03094,207.41549Q404.50706,250,430.5,309.72259Z;
+
+                                   M414,289Q386,328,370.5,380Q355,432,302.5,432.5Q250,433,202.5,424Q155,415,127.5,375.5Q100,336,64.5,293Q29,250,32,188Q35,126,97,109Q159,92,204.5,61Q250,30,296,60Q342,90,401,109.5Q460,129,451,189.5Q442,250,414,289Z;
+
+                                   M433.54635,305.46008Q442.58153,360.92017,389.01759,380Q335.45365,399.07983,292.72683,427.35622Q250,455.63261,197.8706,443.03197Q145.7412,430.43133,99.72361,397.10386Q53.70602,363.77639,27.97919,306.88819Q2.25237,250,19.65494,188.51438Q37.05751,127.02876,86.19807,89.45365Q135.33863,51.87855,192.66932,43.51116Q250,35.14378,303.20129,50.22683Q356.40257,65.30988,399.97124,101.78434Q443.53992,138.2588,434.02554,194.1294Q424.51116,250,433.54635,305.46008Z;
+
+                                   M405.5,292Q396,334,365.5,366Q335,398,292.5,401.5Q250,405,208.5,399.5Q167,394,127,369Q87,344,44.5,297Q2,250,31.5,195.5Q61,141,99.5,98.5Q138,56,194,39.5Q250,23,293,62Q336,101,362,135.5Q388,170,401.5,210Q415,250,405.5,292Z;
+
+                                   M460.5,310.5Q460,371,410.5,407Q361,443,305.5,427.5Q250,412,201.5,414.5Q153,417,108.5,387Q64,357,79.5,303.5Q95,250,79.5,196.5Q64,143,114.5,123.5Q165,104,207.5,81.5Q250,59,291,83Q332,107,379,127.5Q426,148,443.5,199Q461,250,460.5,310.5Z;
+
+                                   M432,302.5Q432,355,380.5,371.5Q329,388,289.5,442Q250,496,205,451.5Q160,407,127,373.5Q94,340,62,295Q30,250,34,189Q38,128,97,108Q156,88,203,74Q250,60,293,80.5Q336,101,377.5,127Q419,153,425.5,201.5Q432,250,432,302.5Z;
+
+                                   M430.5,289Q385,328,361,364.5Q337,401,293.5,441.5Q250,482,209.5,436Q169,390,115.5,374Q62,358,63,304Q64,250,77.5,204Q91,158,113,104Q135,50,192.5,39.5Q250,29,293.5,64.5Q337,100,388,120.5Q439,141,457.5,195.5Q476,250,430.5,289Z;
+                                   "
+                               ></animate>
+                           </path>
+                         </svg>
+                   </div>
+                </div>
+
+                <div class="about__info">
+                   <h3 class="about__info_name">Name: <span>Kristina Wild</span> </h3>
+                   <h3 class="about__info_age">Age: <span>30</span> </h3>
+                   <h3 class="about__info_based">Based : <span>Latvia</span> </h3>
+                   <p data-text="about_p_1" class="about__info_text">
+                    Welcome to my world of creativity and imagination! I'm Kristina , a passionate Game Designer and 3D Artist with over 5 years of experience in crafting mesmerizing 3D models. My journey in this dynamic field has been a constant pursuit of honing my skills and pushing artistic boundaries.
+                   </p>
+                   <p data-text="about_p_2" class="about__info_text">
+                    I take immense pride in bringing dreams to life through immersive gaming experiences. With a keen eye for aesthetics and a flair for storytelling, I build captivating virtual worlds that transport players to extraordinary realms. Every project is a chance to refine my craft and embrace new challenges.
+                   </p>
+                   <p data-text="about_p_2" class="about__info_text">
+                    Join me on this thrilling adventure as I continue to explore, innovate, and redefine what gaming and art can achieve. Let's embark on a journey where the only limit is our imagination. Together, let's create magic!
+                   </p>
+                </div>
+           </div>
+        </div>
+    </section>
+
+    <section  class="skills">
+        <h2 data-text="skills" class="sub__skills">Skills</h2>
+
+            <div class="skils__block">
+
+                <h2>Blender</h2>
+                <div class="progress-bar">
+                    <div class="blender"><span>90%</span></div>
+                </div>
+
+                <h2>Unity</h2>
+                <div class="progress-bar">
+                    <div class="unity"><span>85%</span></div>
+                </div>
+
+                <h2>Photoshop</h2>
+                <div class="progress-bar">
+                    <div class="photoshop"><span>60%</span></div>
+                </div>
+
+                <h2>After Effects</h2>
+                <div class="progress-bar">
+                    <div class="aft-eff"><span>75%</span></div>
+                </div>
+
+                <h2>3D Max</h2>
+                <div class="progress-bar">
+                    <div class="max"><span>95%</span></div>
+                </div>
+
+            </div>
+
+    </section>
+
+    <section class="service page__section_2">
+        <h2 data-text="services" class="sub__service">Service</h2>
+
+        <div class="service__container-big">
+
+            <div class="service__container left-container">
+                <div class="service__box">
+                    <h3 data-text="services_t_1" class="service__title">3D Modeling and Animation:</h3>
+                    <p data-text="services_p_1" class="service__text">Creating high-quality 3D models of objects, characters, and scenes, as well as animations for use in games, animated films, and other multimedia projects.</p>
+                    <span class="service__left-arrow"></span>
+                </div>
+            </div>
+    
+            <div class="service__container right-container">
+                <div class="service__box">
+                    <h3 data-text="services_t_2" class="service__title">Game Design:</h3>
+                    <p data-text="services_p_2" class="service__text">Generating innovative game mechanics, levels, and interfaces to ensure an entertaining and satisfying gaming experience.</p>
+                    <span class="service__right-arrow"></span>
+                </div>
+            </div>
+    
+            <div class="service__container left-container">
+                <div class="service__box">
+                    <h3 data-text="services_t_3" class="service__title">Concept Art and Illustrations:</h3>
+                    <p data-text="services_p_3" class="service__text">Creating illustrations and concept art for games and animation projects, helping to visualize ideas and establish the art style of the gaming world.</p>
+                    <span class="service__left-arrow"></span>
+                </div>
+            </div>
+    
+            <div class="service__container right-container">
+                <div class="service__box">
+                    <h3 data-text="services_t_4" class="service__title">Modifications and Add-ons (Mods):</h3>
+                    <p data-text="services_p_4" class="service__text">Crafting user-created modifications and add-ons for existing games, introducing new gameplay elements, characters, or worlds.</p>
+                    <span class="service__right-arrow"></span>
+                </div>
+            </div>
+    
+            <div class="service__container left-container">
+                <div class="service__box">
+                    <h3 data-text="services_t_5" class="service__title">Consultation and Support:</h3>
+                    <p data-text="services_p_5" class="service__text">Providing consultations on various aspects of game and 3D modeling development, as well as supporting projects at various stages of their development.</p>
+                </div>
+                <span class="service__left-arrow"></span>
+            </div>
+        </div>
+      
+    </section>
+
+    <section class="portfolio page__section_3">
+        <h2 data-text="portfolio"  class="sub__portfolio">Portfolio</h2>
+
+        <div class="portfolio__box">
+            <ul>
+                <li data-text="portfolio_all" class="list active" data-filter="all">All</li>
+                <li data-text="portfolio_char" class="list" data-filter="characters">Сharacters</li>
+                <li data-text="portfolio_build" class="list" data-filter="buildings">Buildings</li>
+                <li data-text="portfolio_trans" class="list" data-filter="transport">Transport</li>
+                <li data-text="portfolio_weapons" class="list" data-filter="weapons">Weapons</li>
+            </ul>
+    
+            <div class="products">
+                <div class="itemBox active" data-item="characters"><img src="images/portfolio/character_1.png" alt=""></div>
+                <div class="itemBox" data-item="buildings"><img src="images/portfolio/building_1.png" alt=""></div>
+                <div class="itemBox" data-item="characters"><img src="images/portfolio/character_2.png" alt=""></div>
+                <div class="itemBox" data-item="weapons"><img src="images/portfolio/weapon_5.png" alt=""></div>
+                <div class="itemBox" data-item="transport"><img src="images/portfolio/transport_1.png" alt=""></div>
+                <div class="itemBox" data-item="weapons"><img src="images/portfolio/weapon_1.png" alt=""></div>
+                <div class="itemBox" data-item="buildings"><img src="images/portfolio/building_2.png" alt=""></div>
+                <div class="itemBox" data-item="characters"><img src="images/portfolio/character_3.png" alt=""></div>
+                <div class="itemBox" data-item="weapons"><img src="images/portfolio/weapon_2.png" alt=""></div>
+                <div class="itemBox" data-item="buildings"><img src="images/portfolio/building_3.png" alt=""></div>
+                <div class="itemBox" data-item="characters"><img src="images/portfolio/character_4.png" alt=""></div>
+                <div class="itemBox" data-item="characters"><img src="images/portfolio/character_5.png" alt=""></div>
+                <div class="itemBox" data-item="transport"><img src="images/portfolio/transport_2.png" alt=""></div>
+                <div class="itemBox" data-item="buildings"><img src="images/portfolio/building_4.png" alt=""></div>
+                <div class="itemBox" data-item="weapons"><img src="images/portfolio/weapon_3.png" alt=""></div>
+                <div class="itemBox" data-item="characters"><img src="images/portfolio/character_6.png" alt=""></div>
+                <div class="itemBox" data-item="weapons"><img src="images/portfolio/weapon_4.png" alt=""></div>
+                <div class="itemBox" data-item="characters"><img src="images/portfolio/character_7.png" alt=""></div>
+                <div class="itemBox" data-item="buildings"><img src="images/portfolio/building_5.png" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section  class="form page__section_4">
+        <h2 data-text="contacts" class="sub__form">Contact</h2>
+        <form  class="form">
+            <input type="text" placeholder="You Name">
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Phone">
+            <textarea name="" id="" cols="30" rows="10" placeholder="How can I help you?"></textarea>
+            <button data-text="send">Send</button>
+        </form>
+    </section>
+</main>
+
+
+
+    <!-- <section class="home page__section_0">
+        <div class="home__container">
+
+            <div class="home__left">
+                <h3 data-text="home__subtitle_one" class="home__subtitle">Welcome ! I’m</h3>
+                <h1 class="home__title">Kristin <span>Wild</span></h1>
+                <h3 data-text="home__subtitle_two" class="home__subtitle">Game Designer 3D Artist</h3>
+                <p data-text="home__text" class="home__text">Welcome to my creative world! As a passionate Game Designer and 3D Artist, I bring dreams to life through immersive experiences. With a keen eye for aesthetics and a knack for storytelling, I craft captivating worlds where players can escape reality. Join me on this exhilarating journey as we push boundaries and redefine gaming together. Let's make magic happen!</p>
+
+                <div class="social__home-block">
+
+                    
+                    <a class="social-link" href="#">
+                        <svg  width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_46_6)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.5 0C33.3662 0 43 9.63385 43 21.5C43 33.3662 33.3662 43 21.5 43C9.63385 43 0 33.3662 0 21.5C0 9.63385 9.63385 0 21.5 0ZM21.5 8.0625C17.8506 8.0625 17.393 8.07795 15.9597 8.14338C14.5295 8.20863 13.5526 8.43581 12.6978 8.76797C11.8142 9.11138 11.0649 9.57086 10.3178 10.3179C9.57078 11.0649 9.1113 11.8143 8.76788 12.6979C8.43573 13.5526 8.20863 14.5295 8.14329 15.9597C8.07795 17.393 8.0625 17.8506 8.0625 21.5C8.0625 25.1494 8.07795 25.607 8.14329 27.0403C8.20863 28.4705 8.43573 29.4474 8.76788 30.3021C9.1113 31.1857 9.57078 31.9351 10.3178 32.6822C11.0649 33.4292 11.8142 33.8887 12.6978 34.2321C13.5526 34.5642 14.5295 34.7914 15.9597 34.8566C17.393 34.922 17.8506 34.9375 21.5 34.9375C25.1494 34.9375 25.607 34.922 27.0403 34.8566C28.4705 34.7914 29.4474 34.5642 30.3021 34.2321C31.1857 33.8887 31.9351 33.4292 32.6822 32.6822C33.4292 31.9351 33.8887 31.1857 34.2321 30.3021C34.5642 29.4474 34.7914 28.4705 34.8566 27.0403C34.922 25.607 34.9375 25.1494 34.9375 21.5C34.9375 17.8506 34.922 17.393 34.8566 15.9597C34.7914 14.5295 34.5642 13.5526 34.2321 12.6979C33.8887 11.8143 33.4292 11.0649 32.6822 10.3179C31.9351 9.57086 31.1857 9.11138 30.3021 8.76797C29.4474 8.43581 28.4705 8.20863 27.0403 8.14338C25.607 8.07795 25.1494 8.0625 21.5 8.0625ZM21.5 10.4837C25.088 10.4837 25.5129 10.4974 26.9299 10.562C28.2401 10.6218 28.9515 10.8407 29.425 11.0247C30.0523 11.2684 30.4999 11.5597 30.9701 12.0299C31.4404 12.5001 31.7316 12.9478 31.9753 13.575C32.1593 14.0485 32.3782 14.7599 32.438 16.0701C32.5026 17.4871 32.5163 17.912 32.5163 21.5C32.5163 25.088 32.5026 25.5129 32.438 26.9299C32.3782 28.2401 32.1593 28.9515 31.9753 29.425C31.7316 30.0523 31.4404 30.4999 30.9701 30.9701C30.4999 31.4404 30.0523 31.7316 29.425 31.9753C28.9515 32.1593 28.2401 32.3782 26.9299 32.438C25.5132 32.5026 25.0882 32.5163 21.5 32.5163C17.9118 32.5163 17.4869 32.5026 16.0701 32.438C14.7599 32.3782 14.0485 32.1593 13.575 31.9753C12.9477 31.7316 12.5001 31.4404 12.0298 30.9701C11.5596 30.4999 11.2684 30.0523 11.0247 29.425C10.8407 28.9515 10.6218 28.2401 10.562 26.9299C10.4973 25.5129 10.4837 25.088 10.4837 21.5C10.4837 17.912 10.4973 17.4871 10.562 16.0701C10.6218 14.7599 10.8407 14.0485 11.0247 13.575C11.2684 12.9478 11.5596 12.5001 12.0298 12.0299C12.5001 11.5597 12.9477 11.2684 13.575 11.0247C14.0485 10.8407 14.7599 10.6218 16.0701 10.562C17.4871 10.4974 17.912 10.4837 21.5 10.4837ZM21.5 14.5997C17.689 14.5997 14.5997 17.689 14.5997 21.5C14.5997 25.311 17.689 28.4003 21.5 28.4003C25.311 28.4003 28.4003 25.311 28.4003 21.5C28.4003 17.689 25.311 14.5997 21.5 14.5997ZM21.5 25.9791C19.0262 25.9791 17.0209 23.9738 17.0209 21.5C17.0209 19.0262 19.0262 17.0209 21.5 17.0209C23.9738 17.0209 25.9791 19.0262 25.9791 21.5C25.9791 23.9738 23.9738 25.9791 21.5 25.9791ZM30.2855 14.3271C30.2855 15.2176 29.5635 15.9395 28.6729 15.9395C27.7825 15.9395 27.0605 15.2176 27.0605 14.3271C27.0605 13.4365 27.7825 12.7146 28.6729 12.7146C29.5635 12.7146 30.2855 13.4365 30.2855 14.3271Z" fill="white"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_46_6">
+                            <rect width="43" height="43" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg> 
+                    </a>
+                    
+                    <a class="social-link" href="#">
+                        <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_46_8)">
+                            <path d="M21.5 0C9.62587 0 0 9.62587 0 21.5C0 33.3741 9.62587 43 21.5 43C33.3741 43 43 33.3741 43 21.5C43 9.62587 33.3741 0 21.5 0ZM27.1765 12.8856C27.1765 12.8856 24.9766 12.7122 24.11 13.0322C22.6775 13.5613 22.6434 14.7987 22.6434 15.9787V18.3885H27.0231L26.3832 22.9983H22.6434V34.3776H17.6968V22.9983H13.584V18.3885H17.697V14.4789C17.697 10.3391 20.8836 8.83927 22.7834 8.65929C24.6832 8.47931 27.1765 9.01925 27.1765 9.01925V12.8856Z" fill="white"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_46_8">
+                            <rect width="43" height="43" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                    </a>
+                   
+                    <a class="social-link" href="#">
+                        <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_46_10)">
+                            <path d="M21.5 0C9.62587 0 0 9.62587 0 21.5C0 33.3741 9.62587 43 21.5 43C33.3741 43 43 33.3741 43 21.5C43 9.62587 33.3741 0 21.5 0ZM30.8991 16.6832C30.9243 18.2865 30.7121 26.3032 23.1033 29.7771C15.4946 33.2509 9.74219 28.922 9.74219 28.922C13.9982 29.3228 16.7897 26.9178 16.7897 26.9178C13.3425 26.7709 12.3404 23.5642 12.3404 23.5642C13.5697 23.778 14.4203 23.435 14.4203 23.435C10.5724 22.402 10.6703 18.6607 10.6703 18.6607C11.7659 19.3109 12.7279 19.195 12.7279 19.195C9.16496 16.6297 11.3455 12.8085 11.3455 12.8085C15.3539 17.7521 21.3582 17.89 21.3582 17.89C21.273 17.4934 21.231 17.0888 21.2328 16.6832C21.2328 13.4766 24.0582 11.8732 26.0428 11.8732C28.0274 11.8732 29.4962 13.3696 29.4962 13.3696C31.006 13.3025 32.6227 12.274 32.6227 12.274C31.9813 14.2248 30.6323 14.9463 30.6323 14.9463C31.8549 14.8127 33.2582 14.198 33.2582 14.198C32.784 15.2402 30.8991 16.6832 30.8991 16.6832Z" fill="white"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_46_10">
+                            <rect width="43" height="43" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                    </a>
+                  
+                    <a class="social-link" href="#">
+                        <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_46_14)">
+                            <path d="M21.5 0C9.62587 0 0 9.62587 0 21.5C0 33.3741 9.62587 43 21.5 43C33.3741 43 43 33.3741 43 21.5C43 9.62587 33.3741 0 21.5 0ZM32.9524 28.7982H30.2241C29.9286 28.7986 29.6369 28.7323 29.3705 28.6044C29.1042 28.4764 28.8701 28.2901 28.6857 28.0592C27.8675 27.032 26.2557 25.2106 24.5633 24.4283C24.4653 24.3824 24.3573 24.362 24.2493 24.3689C24.1413 24.3758 24.0368 24.4098 23.9454 24.4678C23.854 24.5258 23.7787 24.6059 23.7265 24.7007C23.6743 24.7955 23.6468 24.9019 23.6466 25.0101V27.7084C23.6466 27.8515 23.6184 27.9932 23.5637 28.1254C23.5089 28.2577 23.4287 28.3778 23.3275 28.479C23.2263 28.5802 23.1062 28.6605 22.974 28.7153C22.8418 28.7701 22.7001 28.7982 22.5569 28.7982H21.2954C19.6549 28.7982 16.122 27.7996 13.3069 23.6988C10.9083 20.205 9.83911 17.4974 9.21561 15.302C9.17936 15.1734 9.17342 15.038 9.19827 14.9067C9.22311 14.7754 9.27806 14.6515 9.3588 14.545C9.43953 14.4385 9.54387 14.3521 9.6636 14.2926C9.78334 14.2332 9.91522 14.2023 10.0489 14.2024H12.8088C13.0841 14.2022 13.3522 14.2908 13.5731 14.4552C13.7941 14.6195 13.956 14.8508 14.035 15.1146C14.5482 16.8311 15.8775 20.5341 18.2272 22.3781C18.2989 22.4345 18.3849 22.4697 18.4756 22.4796C18.5663 22.4894 18.658 22.4735 18.7401 22.4338C18.8222 22.394 18.8914 22.3319 18.9399 22.2546C18.9884 22.1774 19.0141 22.088 19.0142 21.9968V17.6744C19.0142 16.8202 18.644 15.9656 18.0662 15.2977C17.983 15.2019 17.929 15.0842 17.9108 14.9585C17.8926 14.8329 17.9109 14.7047 17.9635 14.5892C18.0162 14.4738 18.1009 14.3758 18.2077 14.3072C18.3144 14.2385 18.4387 14.202 18.5656 14.202H22.8207C23.0399 14.202 23.25 14.289 23.4049 14.444C23.5599 14.5989 23.647 14.809 23.647 15.0282V20.8504C23.647 20.9347 23.6702 21.0173 23.7141 21.0893C23.7579 21.1613 23.8207 21.2198 23.8956 21.2584C23.9705 21.2971 24.0546 21.3144 24.1387 21.3084C24.2228 21.3024 24.3036 21.2734 24.3723 21.2246C25.1533 20.6686 25.8223 19.8473 26.4375 18.924C27.2119 17.7627 28.1568 15.843 28.6308 14.8467C28.7225 14.6537 28.8671 14.4906 29.0478 14.3765C29.2285 14.2623 29.4378 14.2017 29.6515 14.2018H32.6615C32.7872 14.2017 32.9108 14.2338 33.0207 14.2949C33.1305 14.356 33.2229 14.4441 33.2891 14.5509C33.3554 14.6578 33.3932 14.7797 33.3991 14.9053C33.405 15.0308 33.3787 15.1558 33.3227 15.2684C32.5632 16.7918 31.0838 19.5867 29.6917 21.2264C29.4924 21.4622 29.3948 21.7674 29.4204 22.0751C29.4459 22.3828 29.5925 22.6677 29.828 22.8674C30.7354 23.6428 32.1521 25.0762 33.6794 27.4638C33.7637 27.5945 33.8112 27.7455 33.8169 27.9009C33.8226 28.0562 33.7864 28.2103 33.712 28.3469C33.6376 28.4834 33.5278 28.5974 33.3941 28.6768C33.2605 28.7562 33.1079 28.7982 32.9524 28.7982Z" fill="white"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_46_14">
+                            <rect width="43" height="43" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                    </a>
+                    
+                    <a href="#" class="social-link">
+                        <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5725 21.9071C12.5338 21.9071 12.9967 22.8867 13.0096 22.8867C14.0201 24.6899 15.968 25.8107 19.254 26.1218C18.7853 26.4715 18.222 27.1351 18.1438 27.902C17.554 28.2768 16.3679 28.4008 15.4463 28.1148C14.1542 27.7142 13.6597 25.2009 11.7254 25.5592C11.3068 25.6359 11.39 25.9075 11.7519 26.139C12.3417 26.5138 12.8964 26.9832 13.3243 27.9815C13.6532 28.7484 14.3441 30.1179 16.5299 30.1179C17.3971 30.1179 18.0048 30.0154 18.0048 30.0154C18.0048 30.0154 18.0213 31.9726 18.0213 32.7337C18.0213 33.6117 16.8159 33.8589 16.8159 34.281C16.8159 34.448 17.215 34.4638 17.5354 34.4638C18.1689 34.4638 19.4869 33.9442 19.4869 33.0319C19.4869 32.3073 19.4991 29.8714 19.4991 29.4442C19.4991 28.5126 20.0072 28.2173 20.0072 28.2173C20.0072 28.2173 20.0702 33.191 19.8861 33.8589C19.6696 34.6429 19.279 34.5319 19.279 34.8816C19.279 35.4019 20.8657 35.0099 21.3918 33.8668C21.7981 32.9788 21.6204 28.0976 21.6204 28.0976L22.054 28.089C22.054 28.089 22.0783 30.3229 22.0633 31.3441C22.0482 32.4019 21.9759 33.7392 22.6151 34.3699C23.0351 34.7848 24.3953 35.5123 24.3953 34.8472C24.3953 34.4609 23.65 34.1434 23.65 33.0978V28.2854C24.2455 28.2854 24.156 29.8678 24.156 29.8678L24.1997 32.8083C24.1997 32.8083 24.0678 33.879 25.3786 34.3269C25.8408 34.4867 26.8298 34.5297 26.8764 34.2624C26.923 33.9951 25.6853 33.5973 25.6739 32.7689C25.6667 32.2622 25.6968 31.9669 25.6968 29.7682C25.6968 27.5694 25.3965 26.7567 24.3495 26.1089C27.5802 25.7828 29.5804 24.9973 30.5544 22.8939C30.6303 22.8961 30.9521 21.9114 30.9098 21.9114C31.1284 21.1173 31.2467 20.1777 31.2696 19.0655C31.2639 16.0483 29.7947 14.9812 29.513 14.4802C29.9287 12.1962 29.4428 11.1571 29.2178 10.8002C28.385 10.5092 26.3217 11.5491 25.1937 12.2815C23.3562 11.7533 19.4704 11.8042 18.0134 12.4177C15.3252 10.5264 13.9026 10.8159 13.9026 10.8159C13.9026 10.8159 12.9831 12.4349 13.6597 14.8042C12.7753 15.9121 12.116 16.6962 12.116 18.7738C12.116 19.9448 12.2564 20.9926 12.5725 21.9071ZM21.5 43C9.62627 43 0 33.3737 0 21.5C0 9.62555 9.62627 0 21.5 0C33.3737 0 43 9.62555 43 21.5C43 33.3737 33.3737 43 21.5 43Z" fill="white"/>
+                            </svg>
+                    </a>
+
+ 
+                </div>
+            </div>
+
+            <div class="home__right">
+
+                <div class="circle">
+                    <div class="home-img"></div>
+                    <div class="home__text-circle">
+                        <p>I'm Youtuber And I'm Frontend Developer And I'm Desingers</p>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section class="about page__section_1">
+        <div class="container__about">
+            <h2 data-text="about" class="sub__section">About Me</h2>
+
+            <div class="about__container">
+
+                <div class="about__image">
+                   <div class="img__box">
+                       <img src="/images/about.png" alt="">
+                   </div>
+
+                   <div class="liquid-shape">
+                       <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                           <path fill="#EC1D68">
+                               <animate attributeName="d"
+                                   dur="20000ms"
+                                   repeatCount="indefinite"
+                                   values="
+                                   M430.5,289Q385,328,361,364.5Q337,401,293.5,441.5Q250,482,209.5,436Q169,390,115.5,374Q62,358,63,304Q64,250,77.5,204Q91,158,113,104Q135,50,192.5,39.5Q250,29,293.5,64.5Q337,100,388,120.5Q439,141,457.5,195.5Q476,250,430.5,289Z ;
+
+                                   M430.5,309.72259Q456.49294,369.44518,415.3968,417.34261Q374.30067,465.24003,312.15033,437.35548Q250,409.47093,210.01806,399.2174Q170.03613,388.96387,137.25872,361.56644Q104.48131,334.16902,79.06001,292.08451Q53.6387,250,49.5245,191.04838Q45.4103,132.09676,109.89161,125.75872Q174.37292,119.42068,212.18646,94.41487Q250,69.40905,302.82517,68.12645Q355.65033,66.84385,376.60257,115.83742Q397.55482,164.83098,401.03094,207.41549Q404.50706,250,430.5,309.72259Z;
+
+                                   M414,289Q386,328,370.5,380Q355,432,302.5,432.5Q250,433,202.5,424Q155,415,127.5,375.5Q100,336,64.5,293Q29,250,32,188Q35,126,97,109Q159,92,204.5,61Q250,30,296,60Q342,90,401,109.5Q460,129,451,189.5Q442,250,414,289Z;
+
+                                   M433.54635,305.46008Q442.58153,360.92017,389.01759,380Q335.45365,399.07983,292.72683,427.35622Q250,455.63261,197.8706,443.03197Q145.7412,430.43133,99.72361,397.10386Q53.70602,363.77639,27.97919,306.88819Q2.25237,250,19.65494,188.51438Q37.05751,127.02876,86.19807,89.45365Q135.33863,51.87855,192.66932,43.51116Q250,35.14378,303.20129,50.22683Q356.40257,65.30988,399.97124,101.78434Q443.53992,138.2588,434.02554,194.1294Q424.51116,250,433.54635,305.46008Z;
+
+                                   M405.5,292Q396,334,365.5,366Q335,398,292.5,401.5Q250,405,208.5,399.5Q167,394,127,369Q87,344,44.5,297Q2,250,31.5,195.5Q61,141,99.5,98.5Q138,56,194,39.5Q250,23,293,62Q336,101,362,135.5Q388,170,401.5,210Q415,250,405.5,292Z;
+
+                                   M460.5,310.5Q460,371,410.5,407Q361,443,305.5,427.5Q250,412,201.5,414.5Q153,417,108.5,387Q64,357,79.5,303.5Q95,250,79.5,196.5Q64,143,114.5,123.5Q165,104,207.5,81.5Q250,59,291,83Q332,107,379,127.5Q426,148,443.5,199Q461,250,460.5,310.5Z;
+
+                                   M432,302.5Q432,355,380.5,371.5Q329,388,289.5,442Q250,496,205,451.5Q160,407,127,373.5Q94,340,62,295Q30,250,34,189Q38,128,97,108Q156,88,203,74Q250,60,293,80.5Q336,101,377.5,127Q419,153,425.5,201.5Q432,250,432,302.5Z;
+
+                                   M430.5,289Q385,328,361,364.5Q337,401,293.5,441.5Q250,482,209.5,436Q169,390,115.5,374Q62,358,63,304Q64,250,77.5,204Q91,158,113,104Q135,50,192.5,39.5Q250,29,293.5,64.5Q337,100,388,120.5Q439,141,457.5,195.5Q476,250,430.5,289Z;
+                                   "
+                               ></animate>
+                           </path>
+                         </svg>
+                   </div>
+
+                   <div class="liquid-shape">
+                       <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                           <path fill="#EC1D68">
+                               <animate attributeName="d"
+                                   dur="20000ms"
+                                   repeatCount="indefinite"
+                                   values="
+                                   
+                                   M430.5,289Q385,328,361,364.5Q337,401,293.5,441.5Q250,482,209.5,436Q169,390,115.5,374Q62,358,63,304Q64,250,77.5,204Q91,158,113,104Q135,50,192.5,39.5Q250,29,293.5,64.5Q337,100,388,120.5Q439,141,457.5,195.5Q476,250,430.5,289Z ;
+
+                                   M430.5,309.72259Q456.49294,369.44518,415.3968,417.34261Q374.30067,465.24003,312.15033,437.35548Q250,409.47093,210.01806,399.2174Q170.03613,388.96387,137.25872,361.56644Q104.48131,334.16902,79.06001,292.08451Q53.6387,250,49.5245,191.04838Q45.4103,132.09676,109.89161,125.75872Q174.37292,119.42068,212.18646,94.41487Q250,69.40905,302.82517,68.12645Q355.65033,66.84385,376.60257,115.83742Q397.55482,164.83098,401.03094,207.41549Q404.50706,250,430.5,309.72259Z;
+
+                                   M414,289Q386,328,370.5,380Q355,432,302.5,432.5Q250,433,202.5,424Q155,415,127.5,375.5Q100,336,64.5,293Q29,250,32,188Q35,126,97,109Q159,92,204.5,61Q250,30,296,60Q342,90,401,109.5Q460,129,451,189.5Q442,250,414,289Z;
+
+                                   M433.54635,305.46008Q442.58153,360.92017,389.01759,380Q335.45365,399.07983,292.72683,427.35622Q250,455.63261,197.8706,443.03197Q145.7412,430.43133,99.72361,397.10386Q53.70602,363.77639,27.97919,306.88819Q2.25237,250,19.65494,188.51438Q37.05751,127.02876,86.19807,89.45365Q135.33863,51.87855,192.66932,43.51116Q250,35.14378,303.20129,50.22683Q356.40257,65.30988,399.97124,101.78434Q443.53992,138.2588,434.02554,194.1294Q424.51116,250,433.54635,305.46008Z;
+
+                                   M405.5,292Q396,334,365.5,366Q335,398,292.5,401.5Q250,405,208.5,399.5Q167,394,127,369Q87,344,44.5,297Q2,250,31.5,195.5Q61,141,99.5,98.5Q138,56,194,39.5Q250,23,293,62Q336,101,362,135.5Q388,170,401.5,210Q415,250,405.5,292Z;
+
+                                   M460.5,310.5Q460,371,410.5,407Q361,443,305.5,427.5Q250,412,201.5,414.5Q153,417,108.5,387Q64,357,79.5,303.5Q95,250,79.5,196.5Q64,143,114.5,123.5Q165,104,207.5,81.5Q250,59,291,83Q332,107,379,127.5Q426,148,443.5,199Q461,250,460.5,310.5Z;
+
+                                   M432,302.5Q432,355,380.5,371.5Q329,388,289.5,442Q250,496,205,451.5Q160,407,127,373.5Q94,340,62,295Q30,250,34,189Q38,128,97,108Q156,88,203,74Q250,60,293,80.5Q336,101,377.5,127Q419,153,425.5,201.5Q432,250,432,302.5Z;
+
+                                   M430.5,289Q385,328,361,364.5Q337,401,293.5,441.5Q250,482,209.5,436Q169,390,115.5,374Q62,358,63,304Q64,250,77.5,204Q91,158,113,104Q135,50,192.5,39.5Q250,29,293.5,64.5Q337,100,388,120.5Q439,141,457.5,195.5Q476,250,430.5,289Z;
+                                   "
+                               ></animate>
+                           </path>
+                         </svg>
+                   </div>
+                </div>
+
+                <div class="about__info">
+                   <h3 class="about__info_name">Name: <span>Kristina Wild</span> </h3>
+                   <h3 class="about__info_age">Age: <span>30</span> </h3>
+                   <h3 class="about__info_based">Based : <span>Latvia</span> </h3>
+                   <p data-text="about_p_1" class="about__info_text">
+                    Welcome to my world of creativity and imagination! I'm Kristina , a passionate Game Designer and 3D Artist with over 5 years of experience in crafting mesmerizing 3D models. My journey in this dynamic field has been a constant pursuit of honing my skills and pushing artistic boundaries.
+                   </p>
+                   <p data-text="about_p_2" class="about__info_text">
+                    I take immense pride in bringing dreams to life through immersive gaming experiences. With a keen eye for aesthetics and a flair for storytelling, I build captivating virtual worlds that transport players to extraordinary realms. Every project is a chance to refine my craft and embrace new challenges.
+                   </p>
+                   <p data-text="about_p_2" class="about__info_text">
+                    Join me on this thrilling adventure as I continue to explore, innovate, and redefine what gaming and art can achieve. Let's embark on a journey where the only limit is our imagination. Together, let's create magic!
+                   </p>
+                </div>
+           </div>
+        </div>
+    </section> -->
+
+    <!-- <section  class="skills">
+        <h2 data-text="skills" class="sub__skills">Skills</h2>
+
+            <div class="skils__block">
+
+                <h2>Blender</h2>
+                <div class="progress-bar">
+                    <div class="blender"><span>90%</span></div>
+                </div>
+
+                <h2>Unity</h2>
+                <div class="progress-bar">
+                    <div class="unity"><span>85%</span></div>
+                </div>
+
+                <h2>Photoshop</h2>
+                <div class="progress-bar">
+                    <div class="photoshop"><span>60%</span></div>
+                </div>
+
+                <h2>After Effects</h2>
+                <div class="progress-bar">
+                    <div class="aft-eff"><span>75%</span></div>
+                </div>
+
+                <h2>3D Max</h2>
+                <div class="progress-bar">
+                    <div class="max"><span>95%</span></div>
+                </div>
+
+            </div>
+
+    </section> -->
+
+    <!-- <section class="service page__section_2">
+        <h2 data-text="services" class="sub__service">Service</h2>
+
+        <div class="service__container-big">
+
+            <div class="service__container left-container">
+                <div class="service__box">
+                    <h3 data-text="services_t_1" class="service__title">3D Modeling and Animation:</h3>
+                    <p data-text="services_p_1" class="service__text">Creating high-quality 3D models of objects, characters, and scenes, as well as animations for use in games, animated films, and other multimedia projects.</p>
+                    <span class="service__left-arrow"></span>
+                </div>
+            </div>
+    
+            <div class="service__container right-container">
+                <div class="service__box">
+                    <h3 data-text="services_t_2" class="service__title">Game Design:</h3>
+                    <p data-text="services_p_2" class="service__text">Generating innovative game mechanics, levels, and interfaces to ensure an entertaining and satisfying gaming experience.</p>
+                    <span class="service__right-arrow"></span>
+                </div>
+            </div>
+    
+            <div class="service__container left-container">
+                <div class="service__box">
+                    <h3 data-text="services_t_3" class="service__title">Concept Art and Illustrations:</h3>
+                    <p data-text="services_p_3" class="service__text">Creating illustrations and concept art for games and animation projects, helping to visualize ideas and establish the art style of the gaming world.</p>
+                    <span class="service__left-arrow"></span>
+                </div>
+            </div>
+    
+            <div class="service__container right-container">
+                <div class="service__box">
+                    <h3 data-text="services_t_4" class="service__title">Modifications and Add-ons (Mods):</h3>
+                    <p data-text="services_p_4" class="service__text">Crafting user-created modifications and add-ons for existing games, introducing new gameplay elements, characters, or worlds.</p>
+                    <span class="service__right-arrow"></span>
+                </div>
+            </div>
+    
+            <div class="service__container left-container">
+                <div class="service__box">
+                    <h3 data-text="services_t_5" class="service__title">Consultation and Support:</h3>
+                    <p data-text="services_p_5" class="service__text">Providing consultations on various aspects of game and 3D modeling development, as well as supporting projects at various stages of their development.</p>
+                </div>
+                <span class="service__left-arrow"></span>
+            </div>
+        </div>
+      
+    </section> -->
+
+    <!-- <section class="portfolio page__section_3">
+        <h2 data-text="portfolio"  class="sub__portfolio">Portfolio</h2>
+
+        <div class="portfolio__box">
+            <ul>
+                <li data-text="portfolio_all" class="list active" data-filter="all">All</li>
+                <li data-text="portfolio_char" class="list" data-filter="characters">Сharacters</li>
+                <li data-text="portfolio_build" class="list" data-filter="buildings">Buildings</li>
+                <li data-text="portfolio_trans" class="list" data-filter="transport">Transport</li>
+                <li data-text="portfolio_weapons" class="list" data-filter="weapons">Weapons</li>
+            </ul>
+    
+            <div class="products">
+                <div class="itemBox active" data-item="characters"><img src="images/portfolio/character_1.png" alt=""></div>
+                <div class="itemBox" data-item="buildings"><img src="images/portfolio/building_1.png" alt=""></div>
+                <div class="itemBox" data-item="characters"><img src="images/portfolio/character_2.png" alt=""></div>
+                <div class="itemBox" data-item="weapons"><img src="images/portfolio/weapon_5.png" alt=""></div>
+                <div class="itemBox" data-item="transport"><img src="images/portfolio/transport_1.png" alt=""></div>
+                <div class="itemBox" data-item="weapons"><img src="images/portfolio/weapon_1.png" alt=""></div>
+                <div class="itemBox" data-item="buildings"><img src="images/portfolio/building_2.png" alt=""></div>
+                <div class="itemBox" data-item="characters"><img src="images/portfolio/character_3.png" alt=""></div>
+                <div class="itemBox" data-item="weapons"><img src="images/portfolio/weapon_2.png" alt=""></div>
+                <div class="itemBox" data-item="buildings"><img src="images/portfolio/building_3.png" alt=""></div>
+                <div class="itemBox" data-item="characters"><img src="images/portfolio/character_4.png" alt=""></div>
+                <div class="itemBox" data-item="characters"><img src="images/portfolio/character_5.png" alt=""></div>
+                <div class="itemBox" data-item="transport"><img src="images/portfolio/transport_2.png" alt=""></div>
+                <div class="itemBox" data-item="buildings"><img src="images/portfolio/building_4.png" alt=""></div>
+                <div class="itemBox" data-item="weapons"><img src="images/portfolio/weapon_3.png" alt=""></div>
+                <div class="itemBox" data-item="characters"><img src="images/portfolio/character_6.png" alt=""></div>
+                <div class="itemBox" data-item="weapons"><img src="images/portfolio/weapon_4.png" alt=""></div>
+                <div class="itemBox" data-item="characters"><img src="images/portfolio/character_7.png" alt=""></div>
+                <div class="itemBox" data-item="buildings"><img src="images/portfolio/building_5.png" alt=""></div>
+            </div>
+        </div>
+
+    </section> -->
+
+    <!-- <section  class="form page__section_4">
+        <h2 data-text="contacts" class="sub__form">Contact</h2>
+        <form  class="form">
+            <input type="text" placeholder="You Name">
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Phone">
+            <textarea name="" id="" cols="30" rows="10" placeholder="How can I help you?"></textarea>
+            <button data-text="send">Send</button>
+        </form>
+    </section> -->
+
+
+    <footer class="footer">
+        <div class="first__footer">
+            <h2 data-text="say_hi" class="sub__footer">Let's say Hi</h2>
+            <span>kristi_wild@gmail.com</span>
+            <div class="social__home-block">
+
+                <!-- Instagram-icon -->
+                <a class="social-link" href="#">
+                    <svg  width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_46_6)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21.5 0C33.3662 0 43 9.63385 43 21.5C43 33.3662 33.3662 43 21.5 43C9.63385 43 0 33.3662 0 21.5C0 9.63385 9.63385 0 21.5 0ZM21.5 8.0625C17.8506 8.0625 17.393 8.07795 15.9597 8.14338C14.5295 8.20863 13.5526 8.43581 12.6978 8.76797C11.8142 9.11138 11.0649 9.57086 10.3178 10.3179C9.57078 11.0649 9.1113 11.8143 8.76788 12.6979C8.43573 13.5526 8.20863 14.5295 8.14329 15.9597C8.07795 17.393 8.0625 17.8506 8.0625 21.5C8.0625 25.1494 8.07795 25.607 8.14329 27.0403C8.20863 28.4705 8.43573 29.4474 8.76788 30.3021C9.1113 31.1857 9.57078 31.9351 10.3178 32.6822C11.0649 33.4292 11.8142 33.8887 12.6978 34.2321C13.5526 34.5642 14.5295 34.7914 15.9597 34.8566C17.393 34.922 17.8506 34.9375 21.5 34.9375C25.1494 34.9375 25.607 34.922 27.0403 34.8566C28.4705 34.7914 29.4474 34.5642 30.3021 34.2321C31.1857 33.8887 31.9351 33.4292 32.6822 32.6822C33.4292 31.9351 33.8887 31.1857 34.2321 30.3021C34.5642 29.4474 34.7914 28.4705 34.8566 27.0403C34.922 25.607 34.9375 25.1494 34.9375 21.5C34.9375 17.8506 34.922 17.393 34.8566 15.9597C34.7914 14.5295 34.5642 13.5526 34.2321 12.6979C33.8887 11.8143 33.4292 11.0649 32.6822 10.3179C31.9351 9.57086 31.1857 9.11138 30.3021 8.76797C29.4474 8.43581 28.4705 8.20863 27.0403 8.14338C25.607 8.07795 25.1494 8.0625 21.5 8.0625ZM21.5 10.4837C25.088 10.4837 25.5129 10.4974 26.9299 10.562C28.2401 10.6218 28.9515 10.8407 29.425 11.0247C30.0523 11.2684 30.4999 11.5597 30.9701 12.0299C31.4404 12.5001 31.7316 12.9478 31.9753 13.575C32.1593 14.0485 32.3782 14.7599 32.438 16.0701C32.5026 17.4871 32.5163 17.912 32.5163 21.5C32.5163 25.088 32.5026 25.5129 32.438 26.9299C32.3782 28.2401 32.1593 28.9515 31.9753 29.425C31.7316 30.0523 31.4404 30.4999 30.9701 30.9701C30.4999 31.4404 30.0523 31.7316 29.425 31.9753C28.9515 32.1593 28.2401 32.3782 26.9299 32.438C25.5132 32.5026 25.0882 32.5163 21.5 32.5163C17.9118 32.5163 17.4869 32.5026 16.0701 32.438C14.7599 32.3782 14.0485 32.1593 13.575 31.9753C12.9477 31.7316 12.5001 31.4404 12.0298 30.9701C11.5596 30.4999 11.2684 30.0523 11.0247 29.425C10.8407 28.9515 10.6218 28.2401 10.562 26.9299C10.4973 25.5129 10.4837 25.088 10.4837 21.5C10.4837 17.912 10.4973 17.4871 10.562 16.0701C10.6218 14.7599 10.8407 14.0485 11.0247 13.575C11.2684 12.9478 11.5596 12.5001 12.0298 12.0299C12.5001 11.5597 12.9477 11.2684 13.575 11.0247C14.0485 10.8407 14.7599 10.6218 16.0701 10.562C17.4871 10.4974 17.912 10.4837 21.5 10.4837ZM21.5 14.5997C17.689 14.5997 14.5997 17.689 14.5997 21.5C14.5997 25.311 17.689 28.4003 21.5 28.4003C25.311 28.4003 28.4003 25.311 28.4003 21.5C28.4003 17.689 25.311 14.5997 21.5 14.5997ZM21.5 25.9791C19.0262 25.9791 17.0209 23.9738 17.0209 21.5C17.0209 19.0262 19.0262 17.0209 21.5 17.0209C23.9738 17.0209 25.9791 19.0262 25.9791 21.5C25.9791 23.9738 23.9738 25.9791 21.5 25.9791ZM30.2855 14.3271C30.2855 15.2176 29.5635 15.9395 28.6729 15.9395C27.7825 15.9395 27.0605 15.2176 27.0605 14.3271C27.0605 13.4365 27.7825 12.7146 28.6729 12.7146C29.5635 12.7146 30.2855 13.4365 30.2855 14.3271Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_46_6">
+                        <rect width="43" height="43" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg> 
+                </a>
+                <!-- Facebook-icon -->
+                <a class="social-link" href="#">
+                    <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_46_8)">
+                        <path d="M21.5 0C9.62587 0 0 9.62587 0 21.5C0 33.3741 9.62587 43 21.5 43C33.3741 43 43 33.3741 43 21.5C43 9.62587 33.3741 0 21.5 0ZM27.1765 12.8856C27.1765 12.8856 24.9766 12.7122 24.11 13.0322C22.6775 13.5613 22.6434 14.7987 22.6434 15.9787V18.3885H27.0231L26.3832 22.9983H22.6434V34.3776H17.6968V22.9983H13.584V18.3885H17.697V14.4789C17.697 10.3391 20.8836 8.83927 22.7834 8.65929C24.6832 8.47931 27.1765 9.01925 27.1765 9.01925V12.8856Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_46_8">
+                        <rect width="43" height="43" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                </a>
+                <!-- Twitter-icon -->
+                <a class="social-link" href="#">
+                    <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_46_10)">
+                        <path d="M21.5 0C9.62587 0 0 9.62587 0 21.5C0 33.3741 9.62587 43 21.5 43C33.3741 43 43 33.3741 43 21.5C43 9.62587 33.3741 0 21.5 0ZM30.8991 16.6832C30.9243 18.2865 30.7121 26.3032 23.1033 29.7771C15.4946 33.2509 9.74219 28.922 9.74219 28.922C13.9982 29.3228 16.7897 26.9178 16.7897 26.9178C13.3425 26.7709 12.3404 23.5642 12.3404 23.5642C13.5697 23.778 14.4203 23.435 14.4203 23.435C10.5724 22.402 10.6703 18.6607 10.6703 18.6607C11.7659 19.3109 12.7279 19.195 12.7279 19.195C9.16496 16.6297 11.3455 12.8085 11.3455 12.8085C15.3539 17.7521 21.3582 17.89 21.3582 17.89C21.273 17.4934 21.231 17.0888 21.2328 16.6832C21.2328 13.4766 24.0582 11.8732 26.0428 11.8732C28.0274 11.8732 29.4962 13.3696 29.4962 13.3696C31.006 13.3025 32.6227 12.274 32.6227 12.274C31.9813 14.2248 30.6323 14.9463 30.6323 14.9463C31.8549 14.8127 33.2582 14.198 33.2582 14.198C32.784 15.2402 30.8991 16.6832 30.8991 16.6832Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_46_10">
+                        <rect width="43" height="43" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                </a>
+                <!-- Vk-icon -->
+                <a class="social-link" href="#">
+                    <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_46_14)">
+                        <path d="M21.5 0C9.62587 0 0 9.62587 0 21.5C0 33.3741 9.62587 43 21.5 43C33.3741 43 43 33.3741 43 21.5C43 9.62587 33.3741 0 21.5 0ZM32.9524 28.7982H30.2241C29.9286 28.7986 29.6369 28.7323 29.3705 28.6044C29.1042 28.4764 28.8701 28.2901 28.6857 28.0592C27.8675 27.032 26.2557 25.2106 24.5633 24.4283C24.4653 24.3824 24.3573 24.362 24.2493 24.3689C24.1413 24.3758 24.0368 24.4098 23.9454 24.4678C23.854 24.5258 23.7787 24.6059 23.7265 24.7007C23.6743 24.7955 23.6468 24.9019 23.6466 25.0101V27.7084C23.6466 27.8515 23.6184 27.9932 23.5637 28.1254C23.5089 28.2577 23.4287 28.3778 23.3275 28.479C23.2263 28.5802 23.1062 28.6605 22.974 28.7153C22.8418 28.7701 22.7001 28.7982 22.5569 28.7982H21.2954C19.6549 28.7982 16.122 27.7996 13.3069 23.6988C10.9083 20.205 9.83911 17.4974 9.21561 15.302C9.17936 15.1734 9.17342 15.038 9.19827 14.9067C9.22311 14.7754 9.27806 14.6515 9.3588 14.545C9.43953 14.4385 9.54387 14.3521 9.6636 14.2926C9.78334 14.2332 9.91522 14.2023 10.0489 14.2024H12.8088C13.0841 14.2022 13.3522 14.2908 13.5731 14.4552C13.7941 14.6195 13.956 14.8508 14.035 15.1146C14.5482 16.8311 15.8775 20.5341 18.2272 22.3781C18.2989 22.4345 18.3849 22.4697 18.4756 22.4796C18.5663 22.4894 18.658 22.4735 18.7401 22.4338C18.8222 22.394 18.8914 22.3319 18.9399 22.2546C18.9884 22.1774 19.0141 22.088 19.0142 21.9968V17.6744C19.0142 16.8202 18.644 15.9656 18.0662 15.2977C17.983 15.2019 17.929 15.0842 17.9108 14.9585C17.8926 14.8329 17.9109 14.7047 17.9635 14.5892C18.0162 14.4738 18.1009 14.3758 18.2077 14.3072C18.3144 14.2385 18.4387 14.202 18.5656 14.202H22.8207C23.0399 14.202 23.25 14.289 23.4049 14.444C23.5599 14.5989 23.647 14.809 23.647 15.0282V20.8504C23.647 20.9347 23.6702 21.0173 23.7141 21.0893C23.7579 21.1613 23.8207 21.2198 23.8956 21.2584C23.9705 21.2971 24.0546 21.3144 24.1387 21.3084C24.2228 21.3024 24.3036 21.2734 24.3723 21.2246C25.1533 20.6686 25.8223 19.8473 26.4375 18.924C27.2119 17.7627 28.1568 15.843 28.6308 14.8467C28.7225 14.6537 28.8671 14.4906 29.0478 14.3765C29.2285 14.2623 29.4378 14.2017 29.6515 14.2018H32.6615C32.7872 14.2017 32.9108 14.2338 33.0207 14.2949C33.1305 14.356 33.2229 14.4441 33.2891 14.5509C33.3554 14.6578 33.3932 14.7797 33.3991 14.9053C33.405 15.0308 33.3787 15.1558 33.3227 15.2684C32.5632 16.7918 31.0838 19.5867 29.6917 21.2264C29.4924 21.4622 29.3948 21.7674 29.4204 22.0751C29.4459 22.3828 29.5925 22.6677 29.828 22.8674C30.7354 23.6428 32.1521 25.0762 33.6794 27.4638C33.7637 27.5945 33.8112 27.7455 33.8169 27.9009C33.8226 28.0562 33.7864 28.2103 33.712 28.3469C33.6376 28.4834 33.5278 28.5974 33.3941 28.6768C33.2605 28.7562 33.1079 28.7982 32.9524 28.7982Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_46_14">
+                        <rect width="43" height="43" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                </a>
+                <!-- Gitgub-icon -->
+                <a href="#" class="social-link">
+                    <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5725 21.9071C12.5338 21.9071 12.9967 22.8867 13.0096 22.8867C14.0201 24.6899 15.968 25.8107 19.254 26.1218C18.7853 26.4715 18.222 27.1351 18.1438 27.902C17.554 28.2768 16.3679 28.4008 15.4463 28.1148C14.1542 27.7142 13.6597 25.2009 11.7254 25.5592C11.3068 25.6359 11.39 25.9075 11.7519 26.139C12.3417 26.5138 12.8964 26.9832 13.3243 27.9815C13.6532 28.7484 14.3441 30.1179 16.5299 30.1179C17.3971 30.1179 18.0048 30.0154 18.0048 30.0154C18.0048 30.0154 18.0213 31.9726 18.0213 32.7337C18.0213 33.6117 16.8159 33.8589 16.8159 34.281C16.8159 34.448 17.215 34.4638 17.5354 34.4638C18.1689 34.4638 19.4869 33.9442 19.4869 33.0319C19.4869 32.3073 19.4991 29.8714 19.4991 29.4442C19.4991 28.5126 20.0072 28.2173 20.0072 28.2173C20.0072 28.2173 20.0702 33.191 19.8861 33.8589C19.6696 34.6429 19.279 34.5319 19.279 34.8816C19.279 35.4019 20.8657 35.0099 21.3918 33.8668C21.7981 32.9788 21.6204 28.0976 21.6204 28.0976L22.054 28.089C22.054 28.089 22.0783 30.3229 22.0633 31.3441C22.0482 32.4019 21.9759 33.7392 22.6151 34.3699C23.0351 34.7848 24.3953 35.5123 24.3953 34.8472C24.3953 34.4609 23.65 34.1434 23.65 33.0978V28.2854C24.2455 28.2854 24.156 29.8678 24.156 29.8678L24.1997 32.8083C24.1997 32.8083 24.0678 33.879 25.3786 34.3269C25.8408 34.4867 26.8298 34.5297 26.8764 34.2624C26.923 33.9951 25.6853 33.5973 25.6739 32.7689C25.6667 32.2622 25.6968 31.9669 25.6968 29.7682C25.6968 27.5694 25.3965 26.7567 24.3495 26.1089C27.5802 25.7828 29.5804 24.9973 30.5544 22.8939C30.6303 22.8961 30.9521 21.9114 30.9098 21.9114C31.1284 21.1173 31.2467 20.1777 31.2696 19.0655C31.2639 16.0483 29.7947 14.9812 29.513 14.4802C29.9287 12.1962 29.4428 11.1571 29.2178 10.8002C28.385 10.5092 26.3217 11.5491 25.1937 12.2815C23.3562 11.7533 19.4704 11.8042 18.0134 12.4177C15.3252 10.5264 13.9026 10.8159 13.9026 10.8159C13.9026 10.8159 12.9831 12.4349 13.6597 14.8042C12.7753 15.9121 12.116 16.6962 12.116 18.7738C12.116 19.9448 12.2564 20.9926 12.5725 21.9071ZM21.5 43C9.62627 43 0 33.3737 0 21.5C0 9.62555 9.62627 0 21.5 0C33.3737 0 43 9.62555 43 21.5C43 33.3737 33.3737 43 21.5 43Z" fill="white"/>
+                        </svg>
+                </a>
+
+
+            </div>
+        </div>
+
+        <div class="second__footer">
+            <span>	&#9400; 2023 - Form | All right reserved</span>
+        </div>
+    </footer>
+
+
+</body>
+</html>
